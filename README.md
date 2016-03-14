@@ -57,7 +57,7 @@ sampleCreditAuthorization()
 
 To provide a more basic understanding of the message the sample code is sending, here's an example. Please note that although string building is an option, we generally recommend a more structured approach when sending transactions. Below in the header you'll see [Your License Id]. You'll need to replace [Your License Id] with the actual license Id you obtain in the DevHub portal. 
 
-```Java
+```python
 POST /payment/sp2/credit/v1/authorization
 Content-Type: application/json
 Authorization: VANTIV license="[Your License Id]"
